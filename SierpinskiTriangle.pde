@@ -11,7 +11,7 @@ public void draw() {
   sierpinski(0, 500, 500);
   sierpinski(500, 500, 500);
   sierpinski(-500, 500, 500);
-  rotation *= 0.9999;
+  rotation *= 0.999;
 }
 
 public void sierpinski(float x, float y, float len) {
